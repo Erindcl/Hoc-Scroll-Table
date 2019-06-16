@@ -32,7 +32,7 @@ const HocScrollComponent: any = WrappedComponent => class extends  React.Compone
   }
 
   componentWillReceiveProps (nextProps: any){
-    if (this.props.onePageData != nextProps.onePageData) {
+    if (JSON.stringify(this.props.onePageData) != JSON.stringify(nextProps.onePageData)) {
       const { allData } = this.state;
       scrollLoading = false;
       this.setState({ allData: [...allData, ...nextProps.onePageData] });
