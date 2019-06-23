@@ -10,6 +10,7 @@ import UserManage from 'pages/systemManage/userManage';
 
 import SrollLoadTable from 'pages/srollLoadTable';
 import HocSrollLoadTable from 'pages/hocSrollLoadTable';
+import RenderPropsSrollLoadTable from 'pages/renderPropsSrollLoadTable';
 
 const routerConf = [
   {
@@ -47,6 +48,11 @@ const routerConf = [
    path:'/hoc-scroll-load-table',
    layout: null,
    component: HocSrollLoadTable,
+  },
+  {
+   path:'/rp-scroll-load-table',
+   layout: null,
+   component: RenderPropsSrollLoadTable,
   },
   {
    path:'/login',

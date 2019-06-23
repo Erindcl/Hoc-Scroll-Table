@@ -1,0 +1,26 @@
+{
+  "vendor_1": {
+    "js": "vendor_1_3f7b3471375fc2654708.js"
+  },
+  "vendor_2": {
+    "js": "vendor_2_3f7b3471375fc2654708.js"
+  },
+  "vendor_3": {
+    "js": "vendor_3_3f7b3471375fc2654708.js"
+  },
+  "vendor_4": {
+    "js": "vendor_4_3f7b3471375fc2654708.js"
+  },
+  "vendor_5": {
+    "js": "vendor_5_3f7b3471375fc2654708.js"
+  },
+  "vendor_6": {
+    "js": "vendor_6_3f7b3471375fc2654708.js"
+  },
+  "vendor_7": {
+    "js": "vendor_7_3f7b3471375fc2654708.js"
+  },
+  "vendor_8": {
+    "js": "vendor_8_3f7b3471375fc2654708.js"
+  }
+}
